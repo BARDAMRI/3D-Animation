@@ -1,0 +1,187 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libimguizmo.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"cmake/libigl.cmake",
+			"tutorial/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 285,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 286,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 284,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "IMGUI_IMPL_OPENGL_LOADER_GLAD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/bardamri/3DAnimation/ass3/external/imguizmo"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/bardamri/3DAnimation/ass3/external/libigl-imgui/../imgui"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/bardamri/3DAnimation/ass3/external/libigl-imgui/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/bardamri/3DAnimation/ass3/external/libigl-imgui/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/bardamri/3DAnimation/ass3/external/libigl-imgui/../imgui/backends"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/Users/bardamri/3DAnimation/ass3/external/eigen"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "glad::@31b0de05321e70262faa"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "glfw::@9e2667ebb8db4a0553eb"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "imgui::@5dae878ba146e2cc98c7"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "lib"
+	},
+	"id" : "imguizmo::@ec9a7ed51d40c8c506b6",
+	"name" : "imguizmo",
+	"nameOnDisk" : "libimguizmo.a",
+	"paths" : 
+	{
+		"build" : "tutorial",
+		"source" : "tutorial"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "external/imguizmo/ImGuizmo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "external/imguizmo/ImGuizmo.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
