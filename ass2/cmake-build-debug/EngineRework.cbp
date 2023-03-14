@@ -1,0 +1,4129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EngineRework"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tutorial\;CMake Files\tutorial\Demo\;CMake Files\tutorial\Solution\;CMake Files\cmake\;CMake Files\external\;CMake Files\external\glad\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\libigl-imgui\;CMake Files\external\stb\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 igl"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 igl/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_opengl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 igl_opengl"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_opengl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 igl_opengl/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl_glfw">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_opengl_glfw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 igl_opengl_glfw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl_glfw/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_opengl_glfw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 igl_opengl_glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl_glfw_imgui">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_opengl_glfw_imgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 igl_opengl_glfw_imgui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_opengl_glfw_imgui/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_opengl_glfw_imgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 igl_opengl_glfw_imgui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imguizmo">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libimguizmo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 imguizmo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imguizmo/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libimguizmo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 imguizmo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_png">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_png.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 igl_png"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_png/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_png.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 igl_png/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libengine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/engine"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 engine"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="engine/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libengine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/engine"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 engine/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/src"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/src"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/imgui/Makefile&quot;  VERBOSE=1 imgui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/imgui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/imgui/Makefile&quot;  VERBOSE=1 imgui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/imgui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/imgui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_stb_image">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_stb_image.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 igl_stb_image"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_stb_image/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_stb_image.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 igl_stb_image/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo_bin">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Demo_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/engine"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 Demo_bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo_bin/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Demo_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/engine"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 Demo_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Solution_bin">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Solution_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/engine"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Solution/Makefile&quot;  VERBOSE=1 Solution_bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Solution/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Solution/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Solution/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Solution_bin/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Solution_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/engine"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Solution/Makefile&quot;  VERBOSE=1 Solution_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Solution/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Solution/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Solution/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/AutoMorphingModel.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/AutoMorphingModel.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Camera.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Camera.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/DebugHacks.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/DebugHacks.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Display.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Display.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/DrawBuffer.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/DrawBuffer.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/DrawVisitor.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/DrawVisitor.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/IndexBuffer.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/IndexBuffer.hpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Material.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Material.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Mesh.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Mesh.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Model.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Model.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Movable.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Movable.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/ObjLoader.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/ObjLoader.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/PickVisitor.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/PickVisitor.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Program.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Program.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Renderer.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Renderer.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Scene.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Scene.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/SceneWithImGui.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/SceneWithImGui.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Shader.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Shader.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Texture.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Texture.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Utility.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/VertexArray.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/VertexArray.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/VertexBuffer.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/VertexBuffer.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Viewport.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Viewport.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Visitor.cpp">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/engine/Visitor.h">
+			<Option target="engine"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glad/include/glad/glad.h">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/cocoa_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/cocoa_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/cocoa_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/nsgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/AABB.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/AABB.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ARAPEnergyType.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/AtA_cached.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/AtA_cached.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/C_STR.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/Camera.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/EPS.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/EPS.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/FastWindingNumberForSoups.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/FileEncoding.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/FileMemoryStream.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/HalfEdgeIterator.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/HalfEdgeIterator.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/Hit.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/IndexComparison.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/LinSpaced.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/MappingEnergyType.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/MeshBooleanType.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/MshLoader.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/MshLoader.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/MshSaver.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/MshSaver.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/NormalType.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ONE.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/PI.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/REDRUM.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/STR.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/Singular_Value_Decomposition_Givens_QR_Factorization_Kernel.hpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/Singular_Value_Decomposition_Jacobi_Conjugation_Kernel.hpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/Singular_Value_Decomposition_Kernel_Declarations.hpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/Singular_Value_Decomposition_Main_Kernel_Body.hpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/Singular_Value_Decomposition_Preamble.hpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/SolverStatus.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/SortableRow.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/Timer.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/Viewport.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/WindingNumberAABB.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/WindingNumberMethod.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/WindingNumberTree.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ZERO.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/accumarray.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/accumarray.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/active_set.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/active_set.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/adjacency_list.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/adjacency_list.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/adjacency_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/adjacency_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/all.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/all.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/all_pairs_distances.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/all_pairs_distances.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ambient_occlusion.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ambient_occlusion.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/angular_distance.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/angular_distance.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/any.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/any.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/any_of.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/any_of.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/arap.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/arap.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/arap_dof.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/arap_dof.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/arap_linear_block.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/arap_linear_block.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/arap_rhs.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/arap_rhs.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/average_from_edges_onto_vertices.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/average_from_edges_onto_vertices.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/average_onto_faces.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/average_onto_faces.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/average_onto_vertices.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/average_onto_vertices.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/avg_edge_length.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/avg_edge_length.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/axis_angle_to_quat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/axis_angle_to_quat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/barycenter.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/barycenter.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/barycentric_coordinates.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/barycentric_coordinates.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/barycentric_interpolation.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/barycentric_interpolation.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/basename.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/basename.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bbw.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bbw.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bezier.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bezier.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bfs.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bfs.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bfs_orient.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bfs_orient.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/biharmonic_coordinates.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/biharmonic_coordinates.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bijective_composite_harmonic_mapping.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bijective_composite_harmonic_mapping.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/blkdiag.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/blkdiag.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/blue_noise.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/blue_noise.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bone_parents.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bone_parents.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/boundary_conditions.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/boundary_conditions.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/boundary_facets.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/boundary_facets.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/boundary_loop.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/boundary_loop.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bounding_box.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bounding_box.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bounding_box_diagonal.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/bounding_box_diagonal.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/canonical_quaternions.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/canonical_quaternions.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ceil.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ceil.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/centroid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/centroid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/circulation.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/circulation.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/circumradius.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/circumradius.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/collapse_edge.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/collapse_edge.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/collapse_small_triangles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/collapse_small_triangles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/colon.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/colon.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/colormap.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/colormap.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/column_to_quats.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/column_to_quats.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/columnize.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/columnize.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/comb_cross_field.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/comb_cross_field.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/comb_frame_field.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/comb_frame_field.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/comb_line_field.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/comb_line_field.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/combine.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/combine.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/compute_frame_field_bisectors.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/compute_frame_field_bisectors.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/connect_boundary_to_infinity.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/connect_boundary_to_infinity.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/connected_components.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/connected_components.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/copyleft/marching_cubes.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/copyleft/marching_cubes.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/copyleft/marching_cubes_tables.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/copyleft/progressive_hulls.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/copyleft/progressive_hulls.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/copyleft/progressive_hulls_cost_and_placement.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/copyleft/progressive_hulls_cost_and_placement.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/copyleft/quadprog.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/copyleft/quadprog.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cotmatrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cotmatrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cotmatrix_entries.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cotmatrix_entries.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cotmatrix_intrinsic.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cotmatrix_intrinsic.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/count.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/count.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/covariance_scatter_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/covariance_scatter_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cr_vector_curvature_correction.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cr_vector_curvature_correction.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cr_vector_laplacian.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cr_vector_laplacian.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cr_vector_mass.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cr_vector_mass.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cross.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cross.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cross_field_mismatch.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cross_field_mismatch.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/crouzeix_raviart_cotmatrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/crouzeix_raviart_cotmatrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/crouzeix_raviart_massmatrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/crouzeix_raviart_massmatrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cumprod.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cumprod.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cumsum.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cumsum.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/curved_hessian_energy.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/curved_hessian_energy.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cut_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cut_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cut_mesh_from_singularities.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cut_mesh_from_singularities.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cut_to_disk.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cut_to_disk.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cylinder.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/cylinder.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dated_copy.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dated_copy.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/decimate.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/decimate.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/decimate_callback_types.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/decimate_trivial_callbacks.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/decimate_trivial_callbacks.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/default_num_threads.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/default_num_threads.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/deform_skeleton.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/deform_skeleton.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/delaunay_triangulation.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/delaunay_triangulation.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/deprecated.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dfs.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dfs.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/diag.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/diag.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dihedral_angles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dihedral_angles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dijkstra.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dijkstra.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/direct_delta_mush.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/direct_delta_mush.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/directed_edge_orientations.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/directed_edge_orientations.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/directed_edge_parents.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/directed_edge_parents.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dirname.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dirname.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dot.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dot.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dot_row.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dot_row.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/doublearea.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/doublearea.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dqs.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dqs.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dual_contouring.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/dual_contouring.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ears.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ears.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_collapse_is_valid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_collapse_is_valid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_exists_near.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_exists_near.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_flaps.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_flaps.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_lengths.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_lengths.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_midpoints.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_midpoints.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_topology.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_topology.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_vectors.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edge_vectors.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edges_to_path.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/edges_to_path.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/eigs.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/eigs.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/euler_characteristic.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/euler_characteristic.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/exact_geodesic.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/exact_geodesic.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/example_fun.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/example_fun.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/exploded_view.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/exploded_view.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/extension.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/extension.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/exterior_edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/exterior_edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/extract_manifold_patches.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/extract_manifold_patches.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/extract_non_manifold_edge_curves.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/extract_non_manifold_edge_curves.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/face_areas.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/face_areas.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/face_occurrences.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/face_occurrences.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/faces_first.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/faces_first.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/facet_adjacency_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/facet_adjacency_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/facet_components.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/facet_components.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/false_barycentric_subdivision.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/false_barycentric_subdivision.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/fast_winding_number.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/fast_winding_number.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/file_contents_as_string.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/file_contents_as_string.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/file_dialog_open.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/file_dialog_open.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/file_dialog_save.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/file_dialog_save.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/file_exists.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/file_exists.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/find.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/find.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/find_cross_field_singularities.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/find_cross_field_singularities.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/find_zero.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/find_zero.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/fit_cubic_bezier.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/fit_cubic_bezier.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/fit_plane.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/fit_plane.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/fit_rotations.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/fit_rotations.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/flip_avoiding_line_search.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/flip_avoiding_line_search.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/flip_edge.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/flip_edge.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/flipped_triangles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/flipped_triangles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/flood_fill.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/flood_fill.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/floor.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/floor.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/for_each.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/forward_kinematics.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/forward_kinematics.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/frame_field_deformer.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/frame_field_deformer.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/frame_to_cross_field.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/frame_to_cross_field.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/frustum.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/frustum.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/gaussian_curvature.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/gaussian_curvature.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/get_seconds.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/get_seconds.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/get_seconds_hires.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/get_seconds_hires.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/grad.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/grad.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/grad_intrinsic.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/grad_intrinsic.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/grid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/grid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/grid_search.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/grid_search.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/group_sum_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/group_sum_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/guess_extension.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/guess_extension.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/harmonic.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/harmonic.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/harwell_boeing.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/harwell_boeing.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/hausdorff.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/hausdorff.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/heat_geodesics.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/heat_geodesics.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/hessian.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/hessian.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/hessian_energy.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/hessian_energy.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/histc.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/histc.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/hsv_to_rgb.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/hsv_to_rgb.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/igl_inline.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/in_element.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/in_element.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/infinite_cost_stopping_condition.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/infinite_cost_stopping_condition.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/inradius.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/inradius.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/internal_angles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/internal_angles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/intersect.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/intersect.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/intrinsic_delaunay_cotmatrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/intrinsic_delaunay_cotmatrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/intrinsic_delaunay_triangulation.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/intrinsic_delaunay_triangulation.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/invert_diag.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/invert_diag.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_border_vertex.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_border_vertex.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_boundary_edge.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_boundary_edge.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_delaunay.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_delaunay.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_dir.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_dir.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_edge_manifold.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_edge_manifold.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_file.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_file.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_intrinsic_delaunay.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_intrinsic_delaunay.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_irregular_vertex.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_irregular_vertex.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_planar.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_planar.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_readable.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_readable.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_sparse.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_sparse.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_stl.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_stl.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_symmetric.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_symmetric.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_vertex_manifold.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_vertex_manifold.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_writable.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/is_writable.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/isdiag.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/isdiag.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ismember.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ismember.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/isolines.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/isolines.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/isolines_map.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/isolines_map.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/iterative_closest_point.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/iterative_closest_point.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/jet.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/jet.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/kelvinlets.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/kelvinlets.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/kkt_inverse.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/kkt_inverse.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/knn.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/knn.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/launch_medit.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/launch_medit.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/lbs_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/lbs_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/lexicographic_triangulation.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/lexicographic_triangulation.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/limit_faces.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/limit_faces.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/line_field_mismatch.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/line_field_mismatch.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/line_search.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/line_search.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/line_segment_in_rectangle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/line_segment_in_rectangle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/linprog.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/linprog.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/list_to_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/list_to_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/local_basis.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/local_basis.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/look_at.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/look_at.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/loop.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/loop.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/lscm.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/lscm.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/map_vertices_to_circle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/map_vertices_to_circle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mapping_energy_with_jacobians.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mapping_energy_with_jacobians.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/march_cube.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/march_cube.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/marching_cubes.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/marching_cubes.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/marching_cubes_tables.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/marching_tets.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/marching_tets.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/massmatrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/massmatrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/massmatrix_intrinsic.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/massmatrix_intrinsic.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mat_max.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mat_max.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mat_min.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mat_min.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mat_to_quat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mat_to_quat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/material_colors.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/matlab_format.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/matlab_format.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/matrix_to_list.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/matrix_to_list.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/max.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/max.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/max_faces_stopping_condition.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/max_faces_stopping_condition.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/max_size.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/max_size.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/median.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/median.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min_heap.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min_quad_with_fixed.1.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min_quad_with_fixed.2.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min_quad_with_fixed.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min_quad_with_fixed.impl.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min_quad_with_fixed_precompute.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min_quad_with_fixed_solve.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min_size.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/min_size.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mod.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mod.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mode.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mode.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mvc.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/mvc.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/nchoosek.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/nchoosek.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/next_filename.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/next_filename.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/normal_derivative.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/normal_derivative.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/normalize_quat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/normalize_quat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/normalize_row_lengths.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/normalize_row_lengths.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/normalize_row_sums.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/normalize_row_sums.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/null.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/null.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/octree.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/octree.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/offset_surface.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/offset_surface.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/on_boundary.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/on_boundary.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/MeshGL.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/MeshGL.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/ViewerCore.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/ViewerCore.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/ViewerData.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/ViewerData.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/bind_vertex_attrib_array.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/bind_vertex_attrib_array.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/create_index_vbo.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/create_index_vbo.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/create_mesh_vbo.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/create_mesh_vbo.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/create_shader_program.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/create_shader_program.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/create_vector_vbo.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/create_vector_vbo.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/destroy_shader_program.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/destroy_shader_program.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/gl.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/gl_type_size.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/gl_type_size.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/Viewer.cpp">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/Viewer.h">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/ViewerPlugin.h">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/background_window.cpp">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/background_window.h">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/ImGuiHelpers.h">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/ImGuiMenu.cpp">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/ImGuiMenu.h">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/ImGuiPlugin.cpp">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/ImGuiPlugin.h">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/ImGuiTraits.h">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/ImGuiWidget.h">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/ImGuizmoWidget.cpp">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/ImGuizmoWidget.h">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/SelectionWidget.cpp">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui/SelectionWidget.h">
+			<Option target="igl_opengl_glfw_imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/map_texture.cpp">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/map_texture.h">
+			<Option target="igl_opengl_glfw"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/init_render_to_texture.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/init_render_to_texture.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/load_shader.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/load_shader.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/print_program_info_log.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/print_program_info_log.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/print_shader_info_log.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/print_shader_info_log.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/report_gl_error.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/report_gl_error.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/uniform_type_to_string.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/uniform_type_to_string.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/verasansmono_compressed.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/verasansmono_compressed.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/vertex_array.cpp">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/vertex_array.h">
+			<Option target="igl_opengl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/orient_halfedges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/orient_halfedges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/orient_outward.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/orient_outward.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/orientable_patches.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/orientable_patches.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/oriented_facets.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/oriented_facets.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/orth.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/orth.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ortho.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ortho.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/outer_element.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/outer_element.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/parallel_for.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/parallel_transport_angles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/parallel_transport_angles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/partition.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/partition.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/parula.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/parula.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/path_to_edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/path_to_edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/path_to_executable.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/path_to_executable.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/pathinfo.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/pathinfo.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_corner_normals.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_corner_normals.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_edge_normals.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_edge_normals.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_face_normals.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_face_normals.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_vertex_attribute_smoothing.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_vertex_attribute_smoothing.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_vertex_normals.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_vertex_normals.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_vertex_point_to_plane_quadrics.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/per_vertex_point_to_plane_quadrics.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/piecewise_constant_winding_number.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/piecewise_constant_winding_number.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/pinv.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/pinv.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/planarize_quad_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/planarize_quad_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/readPNG.cpp">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/readPNG.h">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/render_to_png.cpp">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/render_to_png.h">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/render_to_png_async.cpp">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/render_to_png_async.h">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/texture_from_file.cpp">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/texture_from_file.h">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/texture_from_png.cpp">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/texture_from_png.h">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/writePNG.cpp">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/png/writePNG.h">
+			<Option target="igl_png"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/point_in_circle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/point_in_circle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/point_mesh_squared_distance.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/point_mesh_squared_distance.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/point_simplex_squared_distance.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/point_simplex_squared_distance.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/polar_dec.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/polar_dec.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/polar_svd.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/polar_svd.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/polar_svd3x3.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/polar_svd3x3.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/polygon_corners.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/polygon_corners.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/polygons_to_triangles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/polygons_to_triangles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/principal_curvature.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/principal_curvature.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/print_ijv.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/print_ijv.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/print_vector.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/print_vector.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/procrustes.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/procrustes.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/project.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/project.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/project_isometrically_to_plane.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/project_isometrically_to_plane.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/project_to_line.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/project_to_line.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/project_to_line_segment.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/project_to_line_segment.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/projection_constraint.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/projection_constraint.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/pseudonormal_test.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/pseudonormal_test.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/pso.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/pso.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/qslim.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/qslim.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/qslim_optimal_collapse_edge_callbacks.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/qslim_optimal_collapse_edge_callbacks.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quad_grid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quad_grid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quad_planarity.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quad_planarity.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quadprog.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quadprog.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quadric_binary_plus_operator.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quadric_binary_plus_operator.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quat_conjugate.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quat_conjugate.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quat_mult.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quat_mult.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quat_to_axis_angle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quat_to_axis_angle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quat_to_mat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quat_to_mat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quats_to_column.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/quats_to_column.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ramer_douglas_peucker.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ramer_douglas_peucker.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/random_dir.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/random_dir.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/random_points_on_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/random_points_on_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/random_quaternion.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/random_quaternion.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/random_search.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/random_search.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/randperm.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/randperm.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ray_box_intersect.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ray_box_intersect.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ray_mesh_intersect.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ray_mesh_intersect.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ray_sphere_intersect.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/ray_sphere_intersect.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readBF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readBF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readCSV.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readCSV.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readDMAT.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readDMAT.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readMESH.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readMESH.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readMSH.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readMSH.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readNODE.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readNODE.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readOBJ.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readOBJ.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readOFF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readOFF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readPLY.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readPLY.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readSTL.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readSTL.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readTGF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readTGF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readWRL.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/readWRL.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/read_file_binary.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/read_file_binary.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/read_triangle_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/read_triangle_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/redux.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/remesh_along_isoline.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/remesh_along_isoline.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/remove_duplicate_vertices.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/remove_duplicate_vertices.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/remove_unreferenced.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/remove_unreferenced.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/reorder.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/reorder.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/repdiag.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/repdiag.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/repmat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/repmat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/resolve_duplicated_faces.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/resolve_duplicated_faces.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rgb_to_hsv.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rgb_to_hsv.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rigid_alignment.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rigid_alignment.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rotate_by_quat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rotate_by_quat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rotate_vectors.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rotate_vectors.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rotation_matrix_from_directions.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rotation_matrix_from_directions.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/round.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/round.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rows_to_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/rows_to_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sample_edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sample_edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/scalar_to_cr_vector_gradient.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/scalar_to_cr_vector_gradient.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/screen_space_selection.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/screen_space_selection.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/seam_edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/seam_edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/segment_segment_intersect.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/segment_segment_intersect.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/serialize.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/setdiff.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/setdiff.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/setunion.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/setunion.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/setxor.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/setxor.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/shape_diameter_function.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/shape_diameter_function.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/shapeup.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/shapeup.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sharp_edges.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sharp_edges.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/shortest_edge_and_midpoint.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/shortest_edge_and_midpoint.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/signed_angle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/signed_angle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/signed_distance.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/signed_distance.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/simplify_polyhedron.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/simplify_polyhedron.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slice.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slice.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slice_cached.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slice_cached.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slice_into.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slice_into.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slice_mask.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slice_mask.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slice_sorted.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slice_sorted.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slim.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/slim.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/smooth_corner_adjacency.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/smooth_corner_adjacency.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/snap_points.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/snap_points.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/snap_to_canonical_view_quat.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/snap_to_canonical_view_quat.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/snap_to_fixed_up.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/snap_to_fixed_up.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/solid_angle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/solid_angle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sort.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sort.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sort_angles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sort_angles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sort_triangles.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sort_triangles.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sort_vectors_ccw.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sort_vectors_ccw.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sortrows.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sortrows.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sparse.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sparse.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sparse_cached.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sparse_cached.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sparse_voxel_grid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sparse_voxel_grid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/speye.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/speye.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/squared_edge_lengths.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/squared_edge_lengths.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/stdin_to_temp.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/stdin_to_temp.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/straighten_seams.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/straighten_seams.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/string_utils.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/string_utils.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sum.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/sum.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/svd3x3.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/svd3x3.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/svd3x3_avx.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/svd3x3_avx.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/svd3x3_sse.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/svd3x3_sse.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/swept_volume.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/swept_volume.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/swept_volume_bounding_box.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/swept_volume_bounding_box.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/swept_volume_signed_distance.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/swept_volume_signed_distance.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/tan_half_angle.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/tan_half_angle.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/tet_tet_adjacency.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/tet_tet_adjacency.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/tetrahedralized_grid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/tetrahedralized_grid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/tinyply.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/tinyply.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/topological_hole_fill.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/topological_hole_fill.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/trackball.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/trackball.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/transpose_blocks.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/transpose_blocks.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/triangle_fan.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/triangle_fan.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/triangle_triangle_adjacency.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/triangle_triangle_adjacency.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/triangles_from_strip.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/triangles_from_strip.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/triangulated_grid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/triangulated_grid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/two_axis_valuator_fixed_up.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/two_axis_valuator_fixed_up.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/uniformly_sample_two_manifold.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/uniformly_sample_two_manifold.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unique.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unique.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unique_edge_map.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unique_edge_map.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unique_rows.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unique_rows.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unique_simplices.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unique_simplices.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject_in_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject_in_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject_on_line.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject_on_line.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject_on_plane.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject_on_plane.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject_onto_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject_onto_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject_ray.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unproject_ray.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unzip_corners.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/unzip_corners.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/upsample.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/upsample.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/vector_area_matrix.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/vector_area_matrix.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/verbose.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/vertex_components.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/vertex_components.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/vertex_triangle_adjacency.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/vertex_triangle_adjacency.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/volume.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/volume.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/voxel_grid.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/voxel_grid.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/winding_number.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/winding_number.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeBF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeBF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeDMAT.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeDMAT.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeMESH.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeMESH.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeMSH.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeMSH.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeOBJ.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeOBJ.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeOFF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeOFF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writePLY.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writePLY.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeSTL.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeSTL.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeTGF.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeTGF.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeWRL.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/writeWRL.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/write_triangle_mesh.cpp">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/igl/write_triangle_mesh.h">
+			<Option target="igl"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/backends/imgui_impl_glfw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/backends/imgui_impl_glfw.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/backends/imgui_impl_opengl3.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/backends/imgui_impl_opengl3.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/imgui.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/imgui.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/imgui_demo.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/imgui_draw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/imgui_internal.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/imgui_tables.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/imgui_widgets.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/imstb_rectpack.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/imstb_textedit.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imgui/imstb_truetype.h">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imguizmo/ImGuizmo.cpp">
+			<Option target="imguizmo"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/imguizmo/ImGuizmo.h">
+			<Option target="imguizmo"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/igl_stb_image.cpp">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/igl_stb_image.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/stb_image.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/stb_image_write.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/BasicScene.cpp">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/BasicScene.h">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/CamModel.h">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/Demo.cpp">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/SceneWithCameras.cpp">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/SceneWithCameras.h">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/SimpleScene.cpp">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/SimpleScene.h">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/CamModel.h">
+			<Option target="Solution_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/Example1.cpp">
+			<Option target="Solution_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/IglMeshLoader.cpp">
+			<Option target="Solution_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/IglMeshLoader.h">
+			<Option target="Solution_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/SceneWithCameras.cpp">
+			<Option target="Solution_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/SceneWithCameras.h">
+			<Option target="Solution_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/Solution.cpp">
+			<Option target="Solution_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/Solution.h">
+			<Option target="Solution_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tutorial\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tutorial\Demo\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tutorial\Solution\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/CXXFeatures.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/Configurations.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/HunterGate.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/LibiglDownloadExternal.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/LibiglFolders.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/LibiglWindows.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/engine.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/libigl-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glad\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\libigl-imgui\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\stb\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

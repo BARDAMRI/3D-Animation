@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="igl_stb_image"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tutorial\;CMake Files\tutorial\Demo\;CMake Files\tutorial\Solution\;CMake Files\cmake\;CMake Files\external\;CMake Files\external\glad\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\libigl-imgui\;CMake Files\external\stb\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_stb_image">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_stb_image.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 igl_stb_image"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_stb_image/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/libigl_stb_image.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 igl_stb_image/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/igl_stb_image.cpp">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/igl_stb_image.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/stb_image.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/stb_image_write.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tutorial\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tutorial\Demo\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tutorial\Solution\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/CXXFeatures.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/Configurations.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/HunterGate.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/LibiglDownloadExternal.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/LibiglFolders.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/LibiglWindows.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/engine.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/libigl-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glad\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\libigl-imgui\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\stb\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

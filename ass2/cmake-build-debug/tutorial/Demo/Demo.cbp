@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Demo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tutorial\;CMake Files\tutorial\Demo\;CMake Files\tutorial\Solution\;CMake Files\cmake\;CMake Files\external\;CMake Files\external\glad\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\libigl-imgui\;CMake Files\external\stb\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo_bin">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Demo_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/engine"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 Demo_bin"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Demo_bin/fast">
+				<Option output="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/Demo_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bardamri/3DAnimation/ass2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DIGL_STATIC_LIBRARY"/>
+					<Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/engine"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glad/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/glfw/include"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl/opengl/glfw/imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/imguizmo"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/.."/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/../imgui/backends"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/stb"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/stb_image"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/igl"/>
+					<Add directory="/Users/bardamri/3DAnimation/ass2/external/eigen"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 Demo_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bardamri/3DAnimation/ass2/cmake-build-debug/tutorial/Demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/BasicScene.cpp">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/BasicScene.h">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/CamModel.h">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/Demo.cpp">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/SceneWithCameras.cpp">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/SceneWithCameras.h">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/SimpleScene.cpp">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/SimpleScene.h">
+			<Option target="Demo_bin"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tutorial\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tutorial\Demo\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/tutorial/Solution/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tutorial\Solution\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/CXXFeatures.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/Configurations.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/HunterGate.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/LibiglDownloadExternal.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/LibiglFolders.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/LibiglWindows.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/engine.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/libigl-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glad\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/libigl-imgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\libigl-imgui\"/>
+		</Unit>
+		<Unit filename="/Users/bardamri/3DAnimation/ass2/external/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\stb\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
