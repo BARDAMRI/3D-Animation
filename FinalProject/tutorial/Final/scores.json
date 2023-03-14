@@ -1,0 +1,23 @@
+{
+    "0": {
+        "name": "bar",
+        "score": 2000
+    },
+    "1": {
+        "name": "barrrrrr",
+        "score": 1900
+    },
+    "2": {
+        "name": "bar damri",
+        "score": 1610
+    },
+    "3": {
+        "name": "barrddddddddd",
+        "score": 1600
+    },
+    "4": {
+        "name": "bar d",
+        "score": 1440
+    },
+    "numOfScores": 5
+}

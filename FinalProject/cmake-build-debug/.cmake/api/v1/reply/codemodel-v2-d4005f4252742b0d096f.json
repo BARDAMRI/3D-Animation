@@ -1,0 +1,417 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "tutorial",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tutorial-Debug-d772ba756921990988de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "tutorial",
+					"targetIndexes" : 
+					[
+						3,
+						6,
+						7,
+						8,
+						9,
+						10,
+						13
+					]
+				},
+				{
+					"build" : "tutorial/glad",
+					"jsonFile" : "directory-tutorial.glad-Debug-706415fb00fc00df8826.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "external/glad",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "tutorial/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-tutorial.glfw-Debug-4cbcd2d711238ca7ed05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "external/glfw"
+				},
+				{
+					"build" : "tutorial/glfw/src",
+					"jsonFile" : "directory-tutorial.glfw.src-Debug-f583693d19e57fd58a51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "external/glfw/src",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "tutorial/imgui",
+					"jsonFile" : "directory-tutorial.imgui-Debug-ec183b4c3e7fe4babcbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "external/libigl-imgui",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "tutorial/stb_image",
+					"jsonFile" : "directory-tutorial.stb_image-Debug-f3529b53b1802667dbc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "external/stb",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "tutorial/Demo",
+					"jsonFile" : "directory-tutorial.Demo-Debug-226c3074f8aad35b201a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "tutorial/Demo",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "tutorial/Example1",
+					"jsonFile" : "directory-tutorial.Example1-Debug-ce0e2cb54af2f9fb58bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "tutorial/Example1",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "tutorial/Final",
+					"jsonFile" : "directory-tutorial.Final-Debug-2b28a47095f454b073b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 8,
+					"source" : "tutorial/Final",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EngineRework"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "engine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6,
+						7,
+						8,
+						9,
+						10,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "glad",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "libigl_tutorials",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "igl_stb_image",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "Demo",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "Example1",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "Final",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "Demo_bin::@b84a7e62aaa56bc9ddb0",
+					"jsonFile" : "target-Demo_bin-Debug-5836c0642944f49115de.json",
+					"name" : "Demo_bin",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Example1_bin::@1930093ee6a303135cc9",
+					"jsonFile" : "target-Example1_bin-Debug-61cd28bc7832fadeb21c.json",
+					"name" : "Example1_bin",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Final_bin::@c039741b8710a16061ac",
+					"jsonFile" : "target-Final_bin-Debug-5f815289737cc1e49c2c.json",
+					"name" : "Final_bin",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "engine::@ec9a7ed51d40c8c506b6",
+					"jsonFile" : "target-engine-Debug-7241c2b2d348ceb2b9fc.json",
+					"name" : "engine",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glad::@31b0de05321e70262faa",
+					"jsonFile" : "target-glad-Debug-f2bf23626520df2f8b93.json",
+					"name" : "glad",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@9e2667ebb8db4a0553eb",
+					"jsonFile" : "target-glfw-Debug-17e03145055a5117165d.json",
+					"name" : "glfw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "igl::@ec9a7ed51d40c8c506b6",
+					"jsonFile" : "target-igl-Debug-15af52ce653ad49d8ef0.json",
+					"name" : "igl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "igl_opengl::@ec9a7ed51d40c8c506b6",
+					"jsonFile" : "target-igl_opengl-Debug-ef5701b258d2ec1933c7.json",
+					"name" : "igl_opengl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "igl_opengl_glfw::@ec9a7ed51d40c8c506b6",
+					"jsonFile" : "target-igl_opengl_glfw-Debug-7235fc80b23529d7896f.json",
+					"name" : "igl_opengl_glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "igl_opengl_glfw_imgui::@ec9a7ed51d40c8c506b6",
+					"jsonFile" : "target-igl_opengl_glfw_imgui-Debug-ddc8d7d88dd52002b968.json",
+					"name" : "igl_opengl_glfw_imgui",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "igl_png::@ec9a7ed51d40c8c506b6",
+					"jsonFile" : "target-igl_png-Debug-d9cdb301b0ea1674a1f5.json",
+					"name" : "igl_png",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "igl_stb_image::@467d754f64c594be0b07",
+					"jsonFile" : "target-igl_stb_image-Debug-43f74ad47a3506401721.json",
+					"name" : "igl_stb_image",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "imgui::@5dae878ba146e2cc98c7",
+					"jsonFile" : "target-imgui-Debug-0b666a991eabf8f3452e.json",
+					"name" : "imgui",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "imguizmo::@ec9a7ed51d40c8c506b6",
+					"jsonFile" : "target-imguizmo-Debug-d81d8aa56fd8975d07b0.json",
+					"name" : "imguizmo",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/bardamri/3DAnimation/FinalProject/cmake-build-debug",
+		"source" : "/Users/bardamri/3DAnimation/FinalProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

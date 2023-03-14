@@ -1,0 +1,241 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libigl_opengl_glfw.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"compile_igl_module",
+			"include",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"cmake/libigl.cmake",
+			"tutorial/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 253,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 149,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 172,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 267,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "IGL_STATIC_LIBRARY"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/Users/bardamri/3DAnimation/FinalProject/external/igl/opengl"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/bardamri/3DAnimation/FinalProject/glad/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/bardamri/3DAnimation/FinalProject/external/glad/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/bardamri/3DAnimation/FinalProject/external/glfw/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/bardamri/3DAnimation/FinalProject/external"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/bardamri/3DAnimation/FinalProject/external/igl"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/Users/bardamri/3DAnimation/FinalProject/external/eigen"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "igl::@ec9a7ed51d40c8c506b6"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "igl_opengl::@ec9a7ed51d40c8c506b6"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "glad::@31b0de05321e70262faa"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "glfw::@9e2667ebb8db4a0553eb"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "lib"
+	},
+	"id" : "igl_opengl_glfw::@ec9a7ed51d40c8c506b6",
+	"name" : "igl_opengl_glfw",
+	"nameOnDisk" : "libigl_opengl_glfw.a",
+	"paths" : 
+	{
+		"build" : "tutorial",
+		"source" : "tutorial"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				4,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "external/igl/opengl/glfw/Viewer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/igl/opengl/glfw/Viewer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/igl/opengl/glfw/ViewerPlugin.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "external/igl/opengl/glfw/background_window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/igl/opengl/glfw/background_window.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "external/igl/opengl/glfw/map_texture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "external/igl/opengl/glfw/map_texture.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

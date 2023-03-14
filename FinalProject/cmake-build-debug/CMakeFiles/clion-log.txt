@@ -1,0 +1,15 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/bardamri/3DAnimation/FinalProject -B /Users/bardamri/3DAnimation/FinalProject/cmake-build-debug
+-- Found libtool - /usr/bin/libtool
+-- Creating target: igl::core (igl)
+-- Creating target: igl::opengl (igl_opengl)
+-- Creating target: igl::opengl_glfw (igl_opengl_glfw)
+-- Using Cocoa for window creation
+-- Creating target: igl::opengl_glfw_imgui (igl_opengl_glfw_imgui)
+-- Creating target: igl::png (igl_png)
+-- Creating target: engine
+-- Creating target: Demo
+-- Creating target: Example1
+-- Creating target: Final
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/bardamri/3DAnimation/FinalProject/cmake-build-debug
